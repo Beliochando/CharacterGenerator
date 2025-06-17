@@ -1,12 +1,16 @@
-# React + Vite
+Prueba técnica: Generador de personajes ficticios
+Objetivo:
+Crear una pequeña aplicación en React que genere personajes ficticios con atributos aleatorios.
+Premisas:
+No es necesario hacer un backend aunque es valorable mantener una arquitectura que permita la reutilización de los diferentes elementos desarrollados.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Requisitos:
+✅Generar un personaje: Al hacer clic en un botón, el sistema debe crear un personaje con un nombre, edad, raza (humano, elfo, enano, etc.), y una habilidad especial (como volar, invisibilidad, superfuerza, etc.), todos ellos aleatorios.
+✅Mostrar el personaje: Una vez generado, se debe mostrar el personaje con todos sus atributos en pantalla (nombre, edad, raza, habilidad).
+✅Guardar personajes: El usuario puede guardar varios personajes, que se mostrarán en una lista.
+✅Eliminar personajes: El usuario puede eliminar personajes de la lista guardada.
+✅Persistencia (opcional): Al recargar la página, los personajes guardados permanecen usando localStorage.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Extra:
+Añadir la opción de "editar" un personaje.
+✅Asignar una imagen aleatoria para cada personaje (puede usar una API de imágenes o iconos).
